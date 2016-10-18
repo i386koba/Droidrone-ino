@@ -10,6 +10,9 @@
 http://akizukidenshi.com/catalog/g/gI-03033/
 ブートローダー書き込みでArduino化
 
+持っている書き込み機
+https://synapse.kyoto/product/bootloader_writer/page001.html
+
 ATmega88/88V/168PとATmega328Pの比較
 https://synapse.kyoto/tips/bootloader_ATmega88/page001.html#index2
 
