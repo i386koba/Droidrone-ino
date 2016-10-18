@@ -10,6 +10,9 @@
 http://akizukidenshi.com/catalog/g/gI-03033/
 ブートローダー書き込みでArduino化
 
+セラミック発振子　コンデンサ内蔵タイプ　８ＭＨｚ（ＹＩＣ社）
+http://akizukidenshi.com/catalog/g/gP-04547/
+
 持っている書き込み機
 https://synapse.kyoto/product/bootloader_writer/page001.html
 
@@ -19,7 +22,7 @@ https://synapse.kyoto/tips/bootloader_ATmega88/page001.html#index2
 ＡＶＲマイコン　ＡＴｍｅｇａ８８Ｖ－１０ＰＵ　http://akizukidenshi.com/catalog/g/gI-03655/
 
 ＡＶＲマイコンＡＴＭＥＧＡ４８－２０ＡＵ　http://akizukidenshi.com/catalog/g/gI-08437/
-は使えないのか？
+は使えない模様。
 
 ###回路図
 http://akizukidenshi.com/catalog/g/gP-04399/
@@ -36,6 +39,13 @@ SMT　http://akizukidenshi.com/catalog/g/gM-07612/
 
 ###ＲＮ－４２ Ｂｌｕｅｔｏｏｔｈ　２ｍｍピッチ変換モジュール
 Dip化　http://akizukidenshi.com/catalog/g/gM-08690/
+
+ピンソケット　（メス・２ｍｍピッチ）　１ｘ１０　（１０Ｐ）　http://akizukidenshi.com/catalog/g/gC-03668/
+
+２ｍｍピッチピンヘッダ　１×１０　（１０Ｐ）http://akizukidenshi.com/catalog/g/gC-08978/
+
+3.3V -> 5V 変換　http://kosakai.world.coocan.jp/change_3_3V_5V.html
+ＮｃｈチップＭＯＳＦＥＴ　ＢＳＳ１３８（２５個入）http://akizukidenshi.com/catalog/g/gI-04232/
 
 ###マイクロチップ　Ｂｌｕｅｔｏｏｔｈモジュール　ＲＮ４２ＸＶＰ－Ｉ／ＲＭ
 外国人用　http://akizukidenshi.com/catalog/g/gM-07735/
