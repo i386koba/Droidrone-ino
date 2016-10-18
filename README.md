@@ -27,6 +27,8 @@ https://synapse.kyoto/tips/bootloader_ATmega88/page001.html#index2
 ###回路図
 http://akizukidenshi.com/catalog/g/gP-04399/
 
+http://www.aitendo.com/product/11541
+
 ###秋月電子 Arduino互換ボードの使い方
 http://www.geocities.jp/bokunimowakaru/diy/arduino/ae-atmega.html
 
