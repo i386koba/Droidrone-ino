@@ -1,8 +1,22 @@
 # Droidrone-ino
+![droidrone-servo2](https://github.com/i386koba/Droidrone-ino/blob/master/droidrone-servo2.jpg?raw=true)
+
+![droidrone-servo2_schematic](https://github.com/i386koba/Droidrone-ino/blob/master/droidrone-servo2_schematic.jpg?raw=true)
+
+![servo20pinout](https://github.com/i386koba/Droidrone-ino/blob/master/servo20pinout.png?raw=true)
+
 ##マイコン
 ###ＡＶＲマイコン　ＡＴＭＥＧＡ１６８Ｐ－２０ＰＵ
 http://akizukidenshi.com/catalog/g/gI-03033/
 ブートローダー書き込みでArduino化
+
+ATmega88/88V/168PとATmega328Pの比較
+https://synapse.kyoto/tips/bootloader_ATmega88/page001.html#index2
+
+ＡＶＲマイコン　ＡＴｍｅｇａ８８Ｖ－１０ＰＵ　http://akizukidenshi.com/catalog/g/gI-03655/
+
+ＡＶＲマイコンＡＴＭＥＧＡ４８－２０ＡＵ　http://akizukidenshi.com/catalog/g/gI-08437/
+は使えないのか？
 
 ###回路図
 http://akizukidenshi.com/catalog/g/gP-04399/
@@ -36,8 +50,10 @@ http://blog.livedoor.jp/yoshimon/archives/1957888.html
 
 ### ESC内蔵、スイッチで外部ESCと変更できる　
 マルチコプターであればブラシレスモーターと外部ESCとなる。
-このため、サーボPWM出力とブラシモーター用PWM2chとするか。
+（UnoのようにATmega328Pを搭載しているArduinoボードでは、PWMデジタルピン3、5、6、9、10、11）
+このため、サーボPWM 4ch出力とブラシモーター用PWM 2ch出力とする。
 
+http://www.musashinodenpa.com/arduino/ref/index.php?f=0&pos=2153
 ####内蔵 フルブリッジドライバ　Ｌ２９８Ｎ　http://akizukidenshi.com/catalog/g/gI-06380/
 2Aまで。
 
@@ -50,8 +66,19 @@ http://www.mabuchi-motor.co.jp/cgi-bin/catalog/j_catalog.cgi?CAT_ID=rs_380ph
 ###マブチモーター（ブラシ）一覧
 http://www.mabuchi-motor.co.jp/motorize/branch/motor/
 
-###ホールセンサ
+##ホールセンサ
+###ホールセンサーＵＳ１８８１ＬＵＡ
+http://akizukidenshi.com/catalog/g/gI-05274/
 
+###SMT　ホールセンサーＵＳ１８８１ＬＳＥＴＲ（５個入）
+http://akizukidenshi.com/catalog/g/gI-05275/
 
+### Panasonic AN48836B-NL
+http://www.mouser.jp/Search/ProductDetail.aspx?R=AN48836B-NLvirtualkey66720000virtualkey667-AN48836B-NL
+
+Panasonic 磁気センサ (ホールIC)　42ms間欠駆動
+http://www.semicon.panasonic.co.jp/jp/products/analog/hallic/#products-document
+
+間欠駆動周期が気になります　http://jiki-sensor.com/qa/qa150113.html
 ##README.mdファイル。マークダウン記法まとめ
 http://codechord.com/2012/01/readme-markdown/
