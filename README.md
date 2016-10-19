@@ -72,6 +72,9 @@ http://www.musashinodenpa.com/arduino/ref/index.php?f=0&pos=2153
 ####内蔵 フルブリッジドライバ　Ｌ２９８Ｎ　http://akizukidenshi.com/catalog/g/gI-06380/
 2Aまで。
 
+参考：
+http://www.instructables.com/member/ArduinoDeXXX/
+
 ##モーター
 ###タミヤのグラスホッパー純正はRS-380PH MAX3.2A
 http://www.mabuchi-motor.co.jp/cgi-bin/catalog/j_catalog.cgi?CAT_ID=rs_380ph
