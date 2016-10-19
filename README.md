@@ -71,6 +71,7 @@ http://blog.livedoor.jp/yoshimon/archives/1957888.html
 http://www.musashinodenpa.com/arduino/ref/index.php?f=0&pos=2153
 ####内蔵 フルブリッジドライバ　Ｌ２９８Ｎ　http://akizukidenshi.com/catalog/g/gI-06380/
 2Aまで。
+####Ｌ２９８Ｎ使用　２Ａデュアルモーターコントローラー　http://akizukidenshi.com/catalog/g/gM-06680/
 
 参考：
 http://www.instructables.com/member/ArduinoDeXXX/
