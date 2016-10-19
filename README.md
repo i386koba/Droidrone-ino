@@ -21,8 +21,21 @@ https://synapse.kyoto/tips/bootloader_ATmega88/page001.html#index2
 
 ＡＶＲマイコン　ＡＴｍｅｇａ８８Ｖ－１０ＰＵ　http://akizukidenshi.com/catalog/g/gI-03655/
 
-ＡＶＲマイコンＡＴＭＥＧＡ４８－２０ＡＵ　http://akizukidenshi.com/catalog/g/gI-08437/
-は使えない模様。
+ＡＶＲマイコンＡＴＭＥＧＡ４８－２０ＡＵは使えない模様。　http://akizukidenshi.com/catalog/g/gI-08437/
+
+Arduino　Uno
+http://www.pighixxx.com/test/wp-content/uploads/2014/11/uno.png
+
+###出力
+*デジタルIO　０，１ピンはシリアル
+
+*サーボ　２－８、１１－１３（９，１０は使えない）
+
+（UnoのようにATmega328Pを搭載しているArduinoボードでは、PWMデジタルピン3、5、6、9、10、11）
+
+このため、サーボ2,4,6,7,8,11,12,13の8ch出力
+
+ブラシモーター用PWM3,5の2ch出力とする。
 
 ###回路図
 http://akizukidenshi.com/catalog/g/gP-04399/
@@ -65,8 +78,6 @@ http://blog.livedoor.jp/yoshimon/archives/1957888.html
 
 ### ESC内蔵、スイッチで外部ESCと変更できる　
 マルチコプターであればブラシレスモーターと外部ESCとなる。
-（UnoのようにATmega328Pを搭載しているArduinoボードでは、PWMデジタルピン3、5、6、9、10、11）
-このため、サーボPWM 4ch出力とブラシモーター用PWM 2ch出力とする。
 
 http://www.musashinodenpa.com/arduino/ref/index.php?f=0&pos=2153
 ####内蔵 フルブリッジドライバ　Ｌ２９８Ｎ　http://akizukidenshi.com/catalog/g/gI-06380/
