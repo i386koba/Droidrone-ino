@@ -64,8 +64,9 @@ http://qiita.com/chrhsmt/items/e6bfc624d2bacdd7684d
 * ２ｍｍピッチピンヘッダ　１×１０　（１０Ｐ）http://akizukidenshi.com/catalog/g/gC-08978/
 * 3.3V -> 5V 変換　http://kosakai.world.coocan.jp/change_3_3V_5V.html
 * ＮｃｈチップＭＯＳＦＥＴ　ＢＳＳ１３８（２５個入）http://akizukidenshi.com/catalog/g/gI-04232/
-*マイクロチップ　Ｂｌｕｅｔｏｏｔｈモジュール　ＲＮ４２ＸＶＰ－Ｉ／ＲＭ 外国人用　http://akizukidenshi.com/catalog/g/gM-07735/
-###BLE　マイクロチップ　Ｂｌｕｅｔｏｏｔｈ　ＲＮ４０２０－Ｖ／ＲＭ１２３
+* マイクロチップ　Ｂｌｕｅｔｏｏｔｈモジュール　ＲＮ４２ＸＶＰ－Ｉ／ＲＭ 外国人用　http://akizukidenshi.com/catalog/g/gM-07735/
+
+### BLE　マイクロチップ　Ｂｌｕｅｔｏｏｔｈ　ＲＮ４０２０－Ｖ／ＲＭ１２３
 AndroidでBLE変更が必要　http://akizukidenshi.com/catalog/g/gM-10066/
 
 ## ESC 
