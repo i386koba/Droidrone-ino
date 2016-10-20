@@ -8,39 +8,30 @@
 #現在専用基板を作っているので、以下は専用基板用のアイデア、メモになっています。
 
 ##マイコン
-###ＡＶＲマイコン　ＡＴＭＥＧＡ１６８Ｐ－２０ＰＵ
-http://akizukidenshi.com/catalog/g/gI-03033/
-ブートローダー書き込みでArduino化
+* ＡＶＲマイコン　ブートローダー書き込みでArduino化
+* ＡＶＲマイコン　ＡＴｍｅｇａ８８Ｖ－１０ＰＵ　http://akizukidenshi.com/catalog/g/gI-03655/
+低電圧動作版で最大クロック10Mhz 
+* ATmega88/88V/168PとATmega328Pの比較　https://synapse.kyoto/tips/bootloader_ATmega88/page001.html#index2
+*　無難に　168にしますか。http://akizukidenshi.com/catalog/g/gI-03033/
+* 安いＡＶＲマイコンＡＴＭＥＧＡ４８－２０ＡＵは使えない模様。　http://akizukidenshi.com/catalog/g/gI-08437/
+* 持っているAVR書き込み機　https://synapse.kyoto/product/bootloader_writer/page001.html
 
-セラミック発振子　コンデンサ内蔵タイプ　８ＭＨｚ（ＹＩＣ社）
-http://akizukidenshi.com/catalog/g/gP-04547/
+サーボ使うんで内蔵クロックは良くないか？
+* セラミック発振子　コンデンサ内蔵タイプ　８ＭＨｚ（ＹＩＣ社）http://akizukidenshi.com/catalog/g/gP-04547/
+* クリスタル（水晶発振子）８ＭＨｚ http://akizukidenshi.com/catalog/g/gP-08667/
+* 8Mhzではサーボライブラリはうまく動かないようです。
+* クリスタル（水晶発振子）１６ＭＨｚ http://akizukidenshi.com/catalog/g/gP-08671/
 
-持っている書き込み機
-https://synapse.kyoto/product/bootloader_writer/page001.html
-
-ATmega88/88V/168PとATmega328Pの比較
-https://synapse.kyoto/tips/bootloader_ATmega88/page001.html#index2
-
-ＡＶＲマイコン　ＡＴｍｅｇａ８８Ｖ－１０ＰＵ　http://akizukidenshi.com/catalog/g/gI-03655/
-
-ＡＶＲマイコンＡＴＭＥＧＡ４８－２０ＡＵは使えない模様。　http://akizukidenshi.com/catalog/g/gI-08437/
-
-* Arduino　Uno
-http://www.pighixxx.com/test/wp-content/uploads/2014/11/uno.png
-* 回路図
-http://download.arduino.org/products/UNO/Arduino-UNO-Rev3e-SCH.pdf
+* Arduino　Uno　ピン図　http://www.pighixxx.com/test/wp-content/uploads/2014/11/uno.png
+* Arduino　Uno回路図 http://download.arduino.org/products/UNO/Arduino-UNO-Rev3e-SCH.pdf
 
 ###出力
-*デジタルIO　０，１ピンはシリアル
-
-*サーボ　２－８、１１－１３（９，１０は使えない）
-
-（UnoのようにATmega328Pを搭載しているArduinoボードでは、PWMデジタルピン3、5、6、9、10、11）
-
-このため、サーボ2,4,6,7,8,11,12,13の8ch出力
-
-ブラシモーター用PWM3,5の2ch出力とする。
-
+* デジタルIO　０，１ピンはシリアル
+* サーボ　２－８、１１－１３（９，１０は使えない）
+* （UnoのようにATmega328Pを搭載しているArduinoボードでは、PWMデジタルピン3、5、6、9、10、11）
+* このため、サーボ2,4,6,7,8,11,12,13の8ch出力
+* ブラシモーター用PWM3,5の2ch出力とする。
+* ArduinoでPWMサーボの速度をコントロールするVarSpeedServo.h　http://qiita.com/thorikawa/items/a6377d2d4b4535dd9004
 ###回路図
 http://akizukidenshi.com/catalog/g/gP-04399/
 
