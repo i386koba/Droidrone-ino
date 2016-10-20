@@ -107,11 +107,9 @@ http://www.mabuchi-motor.co.jp/cgi-bin/catalog/j_catalog.cgi?CAT_ID=rs_380ph
 http://www.mabuchi-motor.co.jp/motorize/branch/motor/
 
 ##ホールセンサ
-###ホールセンサーＵＳ１８８１ＬＵＡ
-http://akizukidenshi.com/catalog/g/gI-05274/
-
-###SMT　ホールセンサーＵＳ１８８１ＬＳＥＴＲ（５個入）
-http://akizukidenshi.com/catalog/g/gI-05275/
+* ホールＩＣ　Ｓ－５７１６ＡＣＤＬ０－Ｍ３Ｔ１Ｕ　http://akizukidenshi.com/catalog/g/gI-11171/
+* ホールセンサーＵＳ１８８１ＬＵＡ　http://akizukidenshi.com/catalog/g/gI-05274/
+* SMT　ホールセンサーＵＳ１８８１ＬＳＥＴＲ（５個入）http://akizukidenshi.com/catalog/g/gI-05275/
 
 ### Panasonic AN48836B-NL
 http://www.mouser.jp/Search/ProductDetail.aspx?R=AN48836B-NLvirtualkey66720000virtualkey667-AN48836B-NL
