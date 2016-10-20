@@ -44,6 +44,10 @@ ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA�
 * 三端子レギュレーター　５Ｖ１Ａ　μＰＣ７８０５ＡＨＦ　7V~　http://akizukidenshi.com/catalog/g/gI-10952/
 * 低損失三端子レギュレーター　５Ｖ１Ａ　ＴＡ４８０５Ｓ　電圧差＝０．６Ｖで動作　http://akizukidenshi.com/catalog/g/gI-00537/
 
+サーボによっては４．８Ｖ専用だったり耐電圧が５Ｖというものもあります。
+ただ、一般的な普及型サーボや受信機はたいていの場合６ｖ対応になっています。
+さらに最近ではリポ対応として７．４ｖにも耐えられるものが売られています。
+
 ###回路図
 * 互換機　http://akizukidenshi.com/catalog/g/gP-04399/
 * http://www.aitendo.com/product/11541
