@@ -10,22 +10,26 @@
 ##マイコン
 * ＡＶＲマイコン　ブートローダー書き込みでArduino化
 * ＡＶＲマイコン　ＡＴｍｅｇａ８８Ｖ－１０ＰＵ　http://akizukidenshi.com/catalog/g/gI-03655/
+
 低電圧動作版で最大クロック10Mhz 。サーボ使うんで内蔵クロックは良くないか？
 * 8Mhzではサーボライブラリはうまく動かないようです。
 * クリスタル（水晶発振子）１６ＭＨｚ http://akizukidenshi.com/catalog/g/gP-08671/
 * 将来的にはプログラム容量足りれば88-20Mhzだが、秋月にはない。
+
 http://www.digikey.jp/product-detail/ja/atmel/ATMEGA88PA-PU/ATMEGA88PA-PU-ND/1886230
 * ATmega88/88V/168PとATmega328Pの比較　https://synapse.kyoto/tips/bootloader_ATmega88/page001.html#index2
-*　無難に　168にしますか。http://akizukidenshi.com/catalog/g/gI-03033/
+* 無難に　168にしますか。http://akizukidenshi.com/catalog/g/gI-03033/
 * AVRの型番についているアルファベットの見方　http://nomolk.hatenablog.com/entry/2014/10/18/235658
 * 安いＡＶＲマイコンＡＴＭＥＧＡ４８－２０ＡＵは使えない模様。　http://akizukidenshi.com/catalog/g/gI-08437/
 * 持っているAVR書き込み機　https://synapse.kyoto/product/bootloader_writer/page001.html
 
 * Arduino　Uno　ピン図　http://www.pighixxx.com/test/wp-content/uploads/2014/11/uno.png
 * Arduino　Uno回路図 http://download.arduino.org/products/UNO/Arduino-UNO-Rev3e-SCH.pdf
-*　電源　ロードロップアウト三端子レギュレーター　５Ｖ　２５０ｍＡ　ＴＡ７８ＤＬ０５ＡＰ　http://akizukidenshi.com/catalog/g/gI-04195/
-ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA
-なのでサーボは別電源。
+* 電源　ロードロップアウト三端子レギュレーター　５Ｖ　２５０ｍＡ　ＴＡ７８ＤＬ０５ＡＰ　http://akizukidenshi.com/catalog/g/gI-04195/
+
+電池6V駆動を想定
+
+ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA。なのでサーボは別電源。
 ###サーボ出力
 * デジタルIO　０，１ピンはシリアル
 * サーボ　２－８、１１－１３（９，１０は使えない）
@@ -33,9 +37,12 @@ ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA
 * このため、サーボ2,4,6,7,8,11,12,13の8ch出力
 * ブラシモーター用PWM3,5の2ch出力とする。
 * ArduinoでPWMサーボの速度をコントロールするVarSpeedServo.h　http://qiita.com/thorikawa/items/a6377d2d4b4535dd9004
-* サーボ消費電力　0.5A？　http://kong2.cocolog-nifty.com/blog/2008/04/post_45d2.html
+* サーボ消費電力　一個0.5A？　http://kong2.cocolog-nifty.com/blog/2008/04/post_45d2.html
+
 結構電力食いますね。サーボ用電源別にしたほうが良さそうか。
-* 低損失三端子レギュレーター　５Ｖ１Ａ　ＴＡ４８０５Ｓ　http://akizukidenshi.com/catalog/g/gI-00537/
+* ラジコンバッテリーが7.2Vなので、電池の場合はサーボキツイか。（直接？）
+* 三端子レギュレーター　５Ｖ１Ａ　μＰＣ７８０５ＡＨＦ　7V~　http://akizukidenshi.com/catalog/g/gI-10952/
+* 低損失三端子レギュレーター　５Ｖ１Ａ　ＴＡ４８０５Ｓ　電圧差＝０．６Ｖで動作　http://akizukidenshi.com/catalog/g/gI-00537/
 
 ###回路図
 * 互換機　http://akizukidenshi.com/catalog/g/gP-04399/
