@@ -34,8 +34,8 @@ ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA�
 * デジタルIO　０，１ピンはシリアル
 * サーボ　２－８、１１－１３（９，１０は使えない）
 * （UnoのようにATmega328Pを搭載しているArduinoボードでは、PWMデジタルピン3、5、6、9、10、11）
-* このため、サーボ2,4,6,7,8,11,12,13の8ch出力
-* ブラシモーター用PWM3,5の2ch出力とする。
+* このため、サーボ2,3,4,5,6,7,8,11,12,13の10ch出力
+* ブラシモーター用PWM9,10の2ch出力。
 * ArduinoでPWMサーボの速度をコントロールするVarSpeedServo.h　http://qiita.com/thorikawa/items/a6377d2d4b4535dd9004
 * サーボ消費電力　一個0.5A？　http://kong2.cocolog-nifty.com/blog/2008/04/post_45d2.html
 
@@ -46,7 +46,7 @@ ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA�
 
 サーボによっては４．８Ｖ専用だったり耐電圧が５Ｖというものもあります。
 ただ、一般的な普及型サーボや受信機はたいていの場合６ｖ対応になっています。
-さらに最近ではリポ対応として７．４ｖにも耐えられるものが売られています。
+さらに最近ではリポ対応として７．４ｖにも耐えられるものが売られています。（とのこと）
 
 ###回路図
 * 互換機　http://akizukidenshi.com/catalog/g/gP-04399/
