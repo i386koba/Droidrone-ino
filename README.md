@@ -25,8 +25,10 @@ https://synapse.kyoto/tips/bootloader_ATmega88/page001.html#index2
 
 ＡＶＲマイコンＡＴＭＥＧＡ４８－２０ＡＵは使えない模様。　http://akizukidenshi.com/catalog/g/gI-08437/
 
-Arduino　Uno
+* Arduino　Uno
 http://www.pighixxx.com/test/wp-content/uploads/2014/11/uno.png
+* 回路図
+http://download.arduino.org/products/UNO/Arduino-UNO-Rev3e-SCH.pdf
 
 ###出力
 *デジタルIO　０，１ピンはシリアル
