@@ -5,6 +5,8 @@
 
 ![servo20pinout](https://github.com/i386koba/Droidrone-ino/blob/master/servo20pinout.png?raw=true)
 
+#現在専用基板を作っているので、以下は専用基板用のアイデア、メモになっています。
+
 ##マイコン
 ###ＡＶＲマイコン　ＡＴＭＥＧＡ１６８Ｐ－２０ＰＵ
 http://akizukidenshi.com/catalog/g/gI-03033/
