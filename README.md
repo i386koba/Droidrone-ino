@@ -21,6 +21,7 @@ http://www.digikey.jp/product-detail/ja/atmel/ATMEGA88PA-PU/ATMEGA88PA-PU-ND/188
 * 無難に　168にしますか。http://akizukidenshi.com/catalog/g/gI-03033/
 * AVRの型番についているアルファベットの見方　http://nomolk.hatenablog.com/entry/2014/10/18/235658
 * 安いＡＶＲマイコンＡＴＭＥＧＡ４８－２０ＡＵは使えない模様。　http://akizukidenshi.com/catalog/g/gI-08437/
+* ブートローダを使わずにArduinoのスケッチをATmega328Pに書き込む　https://synapse.kyoto/tips/sketch_without_bootloader/page001.html
 * 持っているAVR書き込み機　https://synapse.kyoto/product/bootloader_writer/page001.html
 
 * Arduino　Uno　ピン図　http://www.pighixxx.com/test/wp-content/uploads/2014/11/uno.png
@@ -61,15 +62,15 @@ http://qiita.com/chrhsmt/items/e6bfc624d2bacdd7684d
 * ＲＮ－４２ Ｂｌｕｅｔｏｏｔｈ　２ｍｍピッチ変換モジュール Dip化　http://akizukidenshi.com/catalog/g/gM-08690/
 * ピンソケット　（メス・２ｍｍピッチ）　１ｘ１０　（１０Ｐ）　http://akizukidenshi.com/catalog/g/gC-03668/
 * ２ｍｍピッチピンヘッダ　１×１０　（１０Ｐ）http://akizukidenshi.com/catalog/g/gC-08978/
-* 信号3.3Vトレランス　（参考 3.3V -> 5V 変換　http://kosakai.world.coocan.jp/change_3_3V_5V.html）
 * 3.3V電源　50mA。　低損失レギュレータ　ＬＰ２９５０Ｌ－３．３Ｖ　３．３Ｖ１００ｍＡ　http://akizukidenshi.com/catalog/g/gI-08749/
-* ＮｃｈチップＭＯＳＦＥＴ　ＢＳＳ１３８（２５個入）http://akizukidenshi.com/catalog/g/gI-04232/
 * マイクロチップ　Ｂｌｕｅｔｏｏｔｈモジュール　ＲＮ４２ＸＶＰ－Ｉ／ＲＭ 外国人用　http://akizukidenshi.com/catalog/g/gM-07735/
-
+* 信号3.3Vトレランス　（参考 3.3V -> 5V 変換　http://kosakai.world.coocan.jp/change_3_3V_5V.html）
+*　デフォで115200bps
 ### BLE　マイクロチップ　Ｂｌｕｅｔｏｏｔｈ　ＲＮ４０２０－Ｖ／ＲＭ１２３ 
 * AndroidBLE変更が必要
 * チップ単体　http://akizukidenshi.com/catalog/g/gM-10066/
 * Bluetooth LE RN4020搭載 シリアル無線化クリックボード　http://www.microtechnica-shop.jp/shopdetail/000000000065/
+* デフォで115200bps 日本語マニュアル　http://akizukidenshi.com/download/ds/microchip/70005191A_JP.pdf
 
 ## ESC 
 *タミヤのグラスホッパー純正ESCは TEU105BK　　
