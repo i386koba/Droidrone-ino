@@ -40,9 +40,10 @@ ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA�
 * サーボ消費電力　一個0.5A？　http://kong2.cocolog-nifty.com/blog/2008/04/post_45d2.html
 
 結構電力食いますね。サーボ用電源別にしたほうが良さそうか。
-* ラジコンバッテリーが7.2Vなので、電池の場合はサーボキツイか。（直接？）
+* ラジコンバッテリーが7.2Vなので、一般レギュレーターで5V OK.電池の場合はサーボに直接？
 * 三端子レギュレーター　５Ｖ１Ａ　μＰＣ７８０５ＡＨＦ　7V~　http://akizukidenshi.com/catalog/g/gI-10952/
 * 低損失三端子レギュレーター　５Ｖ１Ａ　ＴＡ４８０５Ｓ　電圧差＝０．６Ｖで動作　http://akizukidenshi.com/catalog/g/gI-00537/
+* 端子はTBかな。
 
 サーボによっては４．８Ｖ専用だったり耐電圧が５Ｖというものもあります。
 ただ、一般的な普及型サーボや受信機はたいていの場合６ｖ対応になっています。
@@ -62,12 +63,15 @@ http://qiita.com/chrhsmt/items/e6bfc624d2bacdd7684d
 * ＲＮ－４２ Ｂｌｕｅｔｏｏｔｈ　２ｍｍピッチ変換モジュール Dip化　http://akizukidenshi.com/catalog/g/gM-08690/
 * ピンソケット　（メス・２ｍｍピッチ）　１ｘ１０　（１０Ｐ）　http://akizukidenshi.com/catalog/g/gC-03668/
 * ２ｍｍピッチピンヘッダ　１×１０　（１０Ｐ）http://akizukidenshi.com/catalog/g/gC-08978/
-* 3.3V -> 5V 変換　http://kosakai.world.coocan.jp/change_3_3V_5V.html
+* 信号3.3Vトレランス　（参考 3.3V -> 5V 変換　http://kosakai.world.coocan.jp/change_3_3V_5V.html）
+* 3.3V電源　50mA。　低損失レギュレータ　ＬＰ２９５０Ｌ－３．３Ｖ　３．３Ｖ１００ｍＡ　http://akizukidenshi.com/catalog/g/gI-08749/
 * ＮｃｈチップＭＯＳＦＥＴ　ＢＳＳ１３８（２５個入）http://akizukidenshi.com/catalog/g/gI-04232/
 * マイクロチップ　Ｂｌｕｅｔｏｏｔｈモジュール　ＲＮ４２ＸＶＰ－Ｉ／ＲＭ 外国人用　http://akizukidenshi.com/catalog/g/gM-07735/
 
-### BLE　マイクロチップ　Ｂｌｕｅｔｏｏｔｈ　ＲＮ４０２０－Ｖ／ＲＭ１２３
-AndroidでBLE変更が必要　http://akizukidenshi.com/catalog/g/gM-10066/
+### BLE　マイクロチップ　Ｂｌｕｅｔｏｏｔｈ　ＲＮ４０２０－Ｖ／ＲＭ１２３ 
+* AndroidBLE変更が必要
+* チップ単体　http://akizukidenshi.com/catalog/g/gM-10066/
+* Bluetooth LE RN4020搭載 シリアル無線化クリックボード　http://www.microtechnica-shop.jp/shopdetail/000000000065/
 
 ## ESC 
 ###タミヤのグラスホッパー純正ESCは TEU105BK　　
