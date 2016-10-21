@@ -72,17 +72,18 @@ http://qiita.com/chrhsmt/items/e6bfc624d2bacdd7684d
 * Bluetooth LE RN4020搭載 シリアル無線化クリックボード　http://www.microtechnica-shop.jp/shopdetail/000000000065/
 
 ## ESC 
-###タミヤのグラスホッパー純正ESCは TEU105BK　　
+*タミヤのグラスホッパー純正ESCは TEU105BK　　
 電動RCカー用のバック走行機能付き小型スピードコントローラー (ESC)　連続60A。
-### GoolRC RC ESC 20A ブラシモーター https://www.amazon.co.jp/dp/B014RB6WS6
-* 380モーターで使えそうではある。
+*GoolRC RC ESC 20A ブラシモーター https://www.amazon.co.jp/dp/B014RB6WS6
+380モーターで使えそうではある。
 http://blog.livedoor.jp/yoshimon/archives/1957888.html
 
-### ESC内蔵、スイッチで外部ESCと変更できる（汎用ESCは難しいか）　
-* マルチコプターであればブラシレスモーターと外部ESCとなる。
-http://www.musashinodenpa.com/arduino/ref/index.php?f=0&pos=2153
+### 10A ブラシレスモーターESC（BEC)
+安いのは
+http://www.hobbyking.com/hobbyking/store/uh_viewitem.asp?idproduct=21247&aff=1777144
+基板ESC内臓より安全。
 
-###PWMブラシモータ
+###ブラシモータPWM制御
 * 内蔵 フルブリッジドライバ　Ｌ２９８Ｎ　http://akizukidenshi.com/catalog/g/gI-06380/
 2Aまで。
 * Ｌ２９８Ｎ使用　２Ａデュアルモーターコントローラー　http://akizukidenshi.com/catalog/g/gM-06680/
