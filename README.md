@@ -25,9 +25,13 @@ http://www.digikey.jp/product-detail/ja/atmel/ATMEGA88PA-PU/ATMEGA88PA-PU-ND/188
 
 * Arduino　Uno　ピン図　http://www.pighixxx.com/test/wp-content/uploads/2014/11/uno.png
 * Arduino　Uno回路図 http://download.arduino.org/products/UNO/Arduino-UNO-Rev3e-SCH.pdf
-* 電源　ロードロップアウト三端子レギュレーター　５Ｖ　２５０ｍＡ　ＴＡ７８ＤＬ０５ＡＰ　http://akizukidenshi.com/catalog/g/gI-04195/
 
-電池6V駆動を想定
+###電源
+* マイコンのみロードロップアウト三端子レギュレーター　５Ｖ　２５０ｍＡ　ＴＡ７８ＤＬ０５ＡＰ　http://akizukidenshi.com/catalog/g/gI-04195/
+* サーボも共通で低損失三端子レギュレーター　５Ｖ１Ａ　ＴＡ４８０５Ｓ　電圧差＝０．６Ｖで動作　http://akizukidenshi.com/catalog/g/gI-00537/
+電池6V駆動もあるので、低失損レギュレータ
+
+* 端子はTBかな。
 
 ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA。なのでサーボは別電源。
 ###サーボ出力
@@ -38,12 +42,6 @@ ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA�
 * ブラシモーター用PWM9,10の2ch出力。
 * ArduinoでPWMサーボの速度をコントロールするVarSpeedServo.h　http://qiita.com/thorikawa/items/a6377d2d4b4535dd9004
 * サーボ消費電力　一個0.5A？　http://kong2.cocolog-nifty.com/blog/2008/04/post_45d2.html
-
-結構電力食いますね。サーボ用電源別にしたほうが良さそうか。
-* ラジコンバッテリーが7.2Vなので、一般レギュレーターで5V OK.電池の場合はサーボに直接？
-* 三端子レギュレーター　５Ｖ１Ａ　μＰＣ７８０５ＡＨＦ　7V~　http://akizukidenshi.com/catalog/g/gI-10952/
-* 低損失三端子レギュレーター　５Ｖ１Ａ　ＴＡ４８０５Ｓ　電圧差＝０．６Ｖで動作　http://akizukidenshi.com/catalog/g/gI-00537/
-* 端子はTBかな。
 
 サーボによっては４．８Ｖ専用だったり耐電圧が５Ｖというものもあります。
 ただ、一般的な普及型サーボや受信機はたいていの場合６ｖ対応になっています。
