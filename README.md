@@ -31,10 +31,10 @@ http://www.digikey.jp/product-detail/ja/atmel/ATMEGA88PA-PU/ATMEGA88PA-PU-ND/188
 * マイコンのみロードロップアウト三端子レギュレーター　５Ｖ　２５０ｍＡ　ＴＡ７８ＤＬ０５ＡＰ　http://akizukidenshi.com/catalog/g/gI-04195/
 * サーボも共通で低損失三端子レギュレーター　５Ｖ１Ａ　ＴＡ４８０５Ｓ　電圧差＝０．６Ｖで動作　http://akizukidenshi.com/catalog/g/gI-00537/
 電池6V駆動もあるので、低失損レギュレータ
-
-* 端子はTBかな。
+* 端子はTB
 
 ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA。なのでサーボは別電源。
+
 ###サーボ出力
 * デジタルIO　０，１ピンはシリアル
 * サーボ　２－８、１１－１３（９，１０は使えない）
@@ -64,8 +64,9 @@ http://qiita.com/chrhsmt/items/e6bfc624d2bacdd7684d
 * ２ｍｍピッチピンヘッダ　１×１０　（１０Ｐ）http://akizukidenshi.com/catalog/g/gC-08978/
 * 3.3V電源　50mA。　低損失レギュレータ　ＬＰ２９５０Ｌ－３．３Ｖ　３．３Ｖ１００ｍＡ　http://akizukidenshi.com/catalog/g/gI-08749/
 * マイクロチップ　Ｂｌｕｅｔｏｏｔｈモジュール　ＲＮ４２ＸＶＰ－Ｉ／ＲＭ 外国人用　http://akizukidenshi.com/catalog/g/gM-07735/
-* 信号3.3Vトレランス　（参考 3.3V -> 5V 変換　http://kosakai.world.coocan.jp/change_3_3V_5V.html）
-*　デフォで115200bps
+* 信号3.3Vトレランス（参考 3.3V -> 5V 変換　http://kosakai.world.coocan.jp/change_3_3V_5V.html）
+* デフォで115200bps
+
 ### BLE　マイクロチップ　Ｂｌｕｅｔｏｏｔｈ　ＲＮ４０２０－Ｖ／ＲＭ１２３ 
 * AndroidBLE変更が必要
 * チップ単体　http://akizukidenshi.com/catalog/g/gM-10066/
