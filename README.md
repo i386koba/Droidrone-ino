@@ -74,6 +74,14 @@ http://qiita.com/chrhsmt/items/e6bfc624d2bacdd7684d
 * Bluetooth LE RN4020搭載 シリアル無線化クリックボード　http://www.microtechnica-shop.jp/shopdetail/000000000065/
 * デフォで115200bps 日本語マニュアル　http://akizukidenshi.com/download/ds/microchip/70005191A_JP.pdf
 
+##I2C
+* ＡＶＲマイコン　ＡＴＴＩＮＹ１３Ａ－ＰＵでシリアル→I2C変換とか　http://akizukidenshi.com/catalog/g/gI-02911/
+* ＤＲＶ８８３５使用ＤＣモータードライブキット　http://akizukidenshi.com/catalog/g/gK-10346/　スケッチあり
+* ＤＲＶ８８３０使用ＤＣモータードライブキット　http://akizukidenshi.com/catalog/g/gK-06489/
+* ＤＲＶ８８３０モータードライバモジュール　http://akizukidenshi.com/catalog/g/gK-06273/
+* モーター制御関連　http://akizukidenshi.com/catalog/c/cmtrkit/
+* ＤＲＶ８８３２使用ＤＣモータードライブキット　http://akizukidenshi.com/catalog/g/gK-06497/
+
 ## ESC 
 *タミヤのグラスホッパー純正ESCは TEU105BK　　
 電動RCカー用のバック走行機能付き小型スピードコントローラー (ESC)　連続60A。
