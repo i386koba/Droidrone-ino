@@ -76,11 +76,14 @@ http://qiita.com/chrhsmt/items/e6bfc624d2bacdd7684d
 
 ##I2C
 * ＡＶＲマイコン　ＡＴＴＩＮＹ１３Ａ－ＰＵでシリアル→I2C変換とか　http://akizukidenshi.com/catalog/g/gI-02911/
-* ＤＲＶ８８３５使用ＤＣモータードライブキット　http://akizukidenshi.com/catalog/g/gK-10346/　スケッチあり
-* ＤＲＶ８８３０使用ＤＣモータードライブキット　http://akizukidenshi.com/catalog/g/gK-06489/
+* ＤＲＶ８８３５使用ステッピング＆ＤＣモータドライバモジュール　単独1.5A　並列3A　スケッチあり
+http://akizukidenshi.com/catalog/g/gK-09848/
+
+http://akizukidenshi.com/catalog/g/gK-10346/
+* ＤＲＶ８８３０使用ＤＣモータードライブキット（説明書あり）　　http://akizukidenshi.com/catalog/g/gK-06489/
 * ＤＲＶ８８３０モータードライバモジュール　http://akizukidenshi.com/catalog/g/gK-06273/
 * モーター制御関連　http://akizukidenshi.com/catalog/c/cmtrkit/
-* ＤＲＶ８８３２使用ＤＣモータードライブキット　http://akizukidenshi.com/catalog/g/gK-06497/
+
 
 ## ESC 
 *タミヤのグラスホッパー純正ESCは TEU105BK　　
