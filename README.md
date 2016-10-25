@@ -28,12 +28,14 @@ http://www.digikey.jp/product-detail/ja/atmel/ATMEGA88PA-PU/ATMEGA88PA-PU-ND/188
 * Arduino　Uno回路図 http://download.arduino.org/products/UNO/Arduino-UNO-Rev3e-SCH.pdf
 
 ###電源
-* マイコンのみロードロップアウト三端子レギュレーター　５Ｖ　２５０ｍＡ　ＴＡ７８ＤＬ０５ＡＰ　http://akizukidenshi.com/catalog/g/gI-04195/
-* サーボも共通で低損失三端子レギュレーター　５Ｖ１Ａ　ＴＡ４８０５Ｓ　電圧差＝０．６Ｖで動作　http://akizukidenshi.com/catalog/g/gI-00537/
 電池6V駆動もあるので、低失損レギュレータ
+* ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA
+* マイコンのみではロードロップアウト三端子レギュレーター　５Ｖ　２５０ｍＡ　ＴＡ７８ＤＬ０５ＡＰ　http://akizukidenshi.com/catalog/g/gI-04195/
+* サーボも共通で低損失三端子レギュレーター　５Ｖ１Ａ　ＴＡ４８０５Ｓ　電圧差＝０．６Ｖで動作　http://akizukidenshi.com/catalog/g/gI-00537/
 * 端子はTB
+* 3.3V電源50mAあればOK。
+* 3.3V 低損失レギュレータ　ＬＰ２９５０Ｌ－３．３Ｖ　３．３Ｖ１００ｍＡ　http://akizukidenshi.com/catalog/g/gI-08749/
 
-ATMEGAA DC Current VCC and GND Pins　全体で流していい電流：200.0mA。なのでサーボは別電源。
 
 ###サーボ出力
 * デジタルIO　０，１ピンはシリアル
@@ -62,7 +64,6 @@ http://qiita.com/chrhsmt/items/e6bfc624d2bacdd7684d
 * ＲＮ－４２ Ｂｌｕｅｔｏｏｔｈ　２ｍｍピッチ変換モジュール Dip化　http://akizukidenshi.com/catalog/g/gM-08690/
 * ピンソケット　（メス・２ｍｍピッチ）　１ｘ１０　（１０Ｐ）　http://akizukidenshi.com/catalog/g/gC-03668/
 * ２ｍｍピッチピンヘッダ　１×１０　（１０Ｐ）http://akizukidenshi.com/catalog/g/gC-08978/
-* 3.3V電源　50mA。　低損失レギュレータ　ＬＰ２９５０Ｌ－３．３Ｖ　３．３Ｖ１００ｍＡ　http://akizukidenshi.com/catalog/g/gI-08749/
 * マイクロチップ　Ｂｌｕｅｔｏｏｔｈモジュール　ＲＮ４２ＸＶＰ－Ｉ／ＲＭ 外国人用　http://akizukidenshi.com/catalog/g/gM-07735/
 * 信号3.3Vトレランス（参考 3.3V -> 5V 変換　http://kosakai.world.coocan.jp/change_3_3V_5V.html）
 * デフォで115200bps
