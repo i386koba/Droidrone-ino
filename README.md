@@ -15,8 +15,7 @@
 * 8Mhzではサーボライブラリはうまく動かないようです。
 * クリスタル（水晶発振子）１６ＭＨｚ http://akizukidenshi.com/catalog/g/gP-08671/
 * 将来的にはプログラム容量足りれば88-20Mhzだが、秋月にはない。
-
-http://www.digikey.jp/product-detail/ja/atmel/ATMEGA88PA-PU/ATMEGA88PA-PU-ND/1886230
+* Digikey http://www.digikey.jp/product-detail/ja/atmel/ATMEGA88PA-PU/ATMEGA88PA-PU-ND/1886230
 * ATmega88/88V/168PとATmega328Pの比較
 https://synapse.kyoto/tips/bootloader_ATmega88/page001.html#index2
 * 無難に　168にしますか。http://akizukidenshi.com/catalog/g/gI-03033/
