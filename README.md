@@ -73,6 +73,7 @@ http://qiita.com/chrhsmt/items/e6bfc624d2bacdd7684d
 * チップ単体　http://akizukidenshi.com/catalog/g/gM-10066/
 * Bluetooth LE RN4020搭載 シリアル無線化クリックボード　http://www.microtechnica-shop.jp/shopdetail/000000000065/
 * デフォで115200bps 日本語マニュアル　http://akizukidenshi.com/download/ds/microchip/70005191A_JP.pdf
+* RN4020 I2C working in firmware 1.20?  http://www.microchip.com/forums/m848311.aspx
 
 ## ESC 
 *タミヤのグラスホッパー純正ESCは TEU105BK　　
