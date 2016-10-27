@@ -74,7 +74,8 @@ http://qiita.com/chrhsmt/items/e6bfc624d2bacdd7684d
 * Bluetooth LE RN4020搭載 シリアル無線化クリックボード　http://www.microtechnica-shop.jp/shopdetail/000000000065/
 * デフォで115200bps 日本語マニュアル　http://akizukidenshi.com/download/ds/microchip/70005191A_JP.pdf
 * RN4020 I2C working in firmware 1.20?  http://www.microchip.com/forums/m848311.aspx
-
+* RN4020 Firmware Release 1.20 /2.4 I2C Interface Support /2.5 PWM Support
+http://ww1.microchip.com/downloads/en/DeviceDoc/RN4020%20Firmware%201%2020%20Release%20Note.pdf
 ## ESC 
 *タミヤのグラスホッパー純正ESCは TEU105BK　　
 電動RCカー用のバック走行機能付き小型スピードコントローラー (ESC)　連続60A。
