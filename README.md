@@ -7,7 +7,9 @@
 
 ![servo20pinout](https://github.com/i386koba/Droidrone-ino/blob/master/servo20pinout.png?raw=true)
 
-## 現在専用基板を作っているので、以下は専用基板用のアイデア、メモになっています。
+## 専用基板
+* https://github.com/i386koba/CelluCon.kicad　KiCADで作成しています。
+* 現在専用基板があります、以下は専用基板用のアイデア、メモになっています。
 
 ## マイコン
 * ＡＶＲマイコン　ブートローダー書き込みでArduino化
